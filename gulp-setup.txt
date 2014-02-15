@@ -1,0 +1,28 @@
+1. install gulp global
+
+$npm install gulp -g
+
+2. install gulp dev project
+
+$npm install gulp --save-dev
+
+3. install gulp plugin
+Sass compile (gulp-ruby-sass)
+Autoprefixer (gulp-autoprefixer)
+Minify CSS (gulp-minify-css)
+JSHint (gulp-jshint)
+Concatenation (gulp-concat)
+Uglify (gulp-uglify)
+Compress images (gulp-imagemin)
+LiveReload (gulp-livereload, requires tiny-lr)
+Clean files for a clean build (gulp-clean)
+Caching of images so only changed images are compressed (gulp-cache)
+Notify of changes (gulp-notify)
+Minify html (gulp-minify-html)
+Gulp Watch (gulp-watch)
+Gulp Connect Livereload (connect-livereload)
+
+$npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-clean gulp-notify gulp-rename gulp-livereload tiny-lr gulp-cache gulp-minify-html gulp-watch connect-livereload --save-dev
+
+4. Optional for Angular project - install gulp-ng-html2js
+npm install gulp-ng-html2js
