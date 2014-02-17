@@ -26,3 +26,10 @@ $npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-c
 
 4. Optional for Angular project - install gulp-ng-html2js
 npm install gulp-ng-html2js
+
+//optional for windows - required ruby & ruby sass
+//ruby install x86 version
+http://rubyinstaller.org/downloads/
+
+//install sass
+gem install sass
