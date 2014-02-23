@@ -1,0 +1,45 @@
+Tapp Me V2
+
+Mobile App - iconic framework - angularjs - sass
+
+
+1. Setup node server
+Download Install Node
+
+Install Express
+$npm install express
+
+Install mongoose
+npm install mongoose
+
+2. Setup gulp
+
+//install gulp global
+$npm install gulp -g
+
+//install build html to angular js
+$npm install gulp-ng-html2js
+
+//install gulp dev project
+$npm install gulp --save-dev
+
+//install gulp plugin
+Sass compile (gulp-ruby-sass)
+Autoprefixer (gulp-autoprefixer)
+Minify CSS (gulp-minify-css)
+JSHint (gulp-jshint)
+Concatenation (gulp-concat)
+Uglify (gulp-uglify)
+Compress images (gulp-imagemin)
+LiveReload (gulp-livereload, requires tiny-lr)
+Clean files for a clean build (gulp-clean)
+Caching of images so only changed images are compressed (gulp-cache)
+Minify html (gulp-minify-html)
+Gulp Watch (gulp-watch)
+Gulp Connect Livereload (connect-livereload)
+
+$npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-clean gulp-rename gulp-livereload tiny-lr gulp-cache gulp-minify-html gulp-watch connect-livereload gulp-ng-html2js --save-dev
+
+3. Optional
+//optional for windows - required ruby & ruby sass //ruby install x86 version http://rubyinstaller.org/downloads/
+//install sass gem install sass
